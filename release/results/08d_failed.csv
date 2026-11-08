@@ -1,0 +1,2 @@
+failed_model,error
+nomic,"AttributeError(""'NomicBertModel' object has no attribute 'get_extended_attention_mask'"")"

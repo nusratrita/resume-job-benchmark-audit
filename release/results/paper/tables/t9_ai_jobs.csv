@@ -1,0 +1,5 @@
+method,jobs,NDCG@10,diff vs TF-IDF,p
+E5-base (zero-shot),35,0.7477,0.0798,0.0226
+BGE-base (zero-shot),35,0.7168,0.049,0.156
+MPNet-base (zero-shot),35,0.7183,0.0505,0.098
+Resume-prior (no job text),35,0.6345,-0.0333,0.5234

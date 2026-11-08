@@ -1,0 +1,10 @@
+cut-off,scorer,n non-tech mixed jobs,per-job AUC,CI,p vs 0.5
+2,resume tech terms,26,0.516,"[0.442, 0.591]",0.713
+2,resume text only,26,0.542,"[0.462, 0.622]",0.314
+2,"resume text only, tech words removed",26,0.533,"[0.450, 0.617]",0.442
+3,resume tech terms,30,0.546,"[0.474, 0.619]",0.186
+3,resume text only,30,0.573,"[0.496, 0.654]",0.069
+3,"resume text only, tech words removed",30,0.566,"[0.485, 0.650]",0.103
+5,resume tech terms,47,0.582,"[0.517, 0.647]",0.01
+5,resume text only,47,0.643,"[0.575, 0.709]",0.0
+5,"resume text only, tech words removed",47,0.624,"[0.562, 0.691]",0.0

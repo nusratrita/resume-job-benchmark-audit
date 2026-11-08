@@ -1,0 +1,25 @@
+\begin{table}
+\caption{Score change when a resume is replaced by its AI-polished version (181 resumes).}
+\label{tab:t8_polish}
+\begin{tabular}{llrrlrrrr}
+\toprule
+method & pairs & n & change in SDs & CI & share up & mean places up & share reaching top 5 & p (Holm) \\
+\midrule
+tfidf & all pairs & 2076 & 0.072 & [0.0006, 0.0021] & 0.646 & 1.340 & 0.040 & 0.000 \\
+tfidf & fit pairs & 1012 & 0.082 & [0.0007, 0.0025] & 0.654 & 1.460 & 0.048 & 0.000 \\
+tfidf & no-fit pairs & 1064 & 0.063 & [0.0005, 0.0019] & 0.638 & 1.230 & 0.032 & 0.000 \\
+e5 & all pairs & 2076 & 0.743 & [0.0160, 0.0186] & 0.948 & 10.860 & 0.341 & 0.000 \\
+e5 & fit pairs & 1012 & 0.744 & [0.0158, 0.0188] & 0.951 & 10.540 & 0.356 & 0.000 \\
+e5 & no-fit pairs & 1064 & 0.743 & [0.0158, 0.0187] & 0.945 & 11.160 & 0.326 & 0.000 \\
+bge & all pairs & 2076 & 0.184 & [0.0072, 0.0153] & 0.699 & 2.850 & 0.088 & 0.000 \\
+bge & fit pairs & 1012 & 0.191 & [0.0072, 0.0164] & 0.709 & 2.730 & 0.105 & 0.000 \\
+bge & no-fit pairs & 1064 & 0.177 & [0.0070, 0.0150] & 0.690 & 2.960 & 0.071 & 0.000 \\
+mpnet & all pairs & 2076 & -0.079 & [-0.0207, -0.0001] & 0.423 & -1.480 & 0.039 & 0.000 \\
+mpnet & fit pairs & 1012 & -0.052 & [-0.0166, 0.0035] & 0.431 & -1.040 & 0.050 & 0.000 \\
+mpnet & no-fit pairs & 1064 & -0.105 & [-0.0249, -0.0025] & 0.416 & -1.910 & 0.027 & 0.000 \\
+qwen4b judge & all pairs & 320 & 0.044 & [-0.0050, 0.0625] & 0.522 & NaN & NaN & 0.004 \\
+qwen4b judge & fit pairs & 141 & 0.045 & [-0.0190, 0.0820] & 0.518 & NaN & NaN & 0.165 \\
+qwen4b judge & no-fit pairs & 179 & 0.044 & [-0.0127, 0.0721] & 0.525 & NaN & NaN & 0.014 \\
+\bottomrule
+\end{tabular}
+\end{table}

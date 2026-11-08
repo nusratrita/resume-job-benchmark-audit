@@ -1,0 +1,7 @@
+comparison,mean diff,CI,jobs better / worse / tied,folds where a > b,p bootstrap,p Wilcoxon,p Holm (Wilcoxon),p Holm (bootstrap)
+FT standard  minus  FT strict,0.076,"[0.050, 0.103]",85 / 23 / 62,5 of 5,0.0,1.08e-08,6.48e-08,0.0
+FT size-matched  minus  FT strict,0.065,"[0.040, 0.092]",80 / 34 / 56,5 of 5,0.0,3.91e-06,1.95e-05,0.0
+FT standard  minus  FT size-matched,0.01,"[-0.006, 0.027]",42 / 35 / 93,4 of 5,0.222,0.365,0.365,0.222
+FT strict  minus  BGE-base (zero-shot),0.047,"[0.022, 0.072]",69 / 41 / 60,4 of 5,0.0004,0.00213,0.0064,0.0012
+FT strict  minus  E5-base (zero-shot),0.059,"[0.030, 0.089]",80 / 41 / 49,5 of 5,0.0,0.000301,0.0012,0.0
+FT strict  minus  TF-IDF,0.045,"[0.014, 0.075]",83 / 46 / 41,5 of 5,0.0028,0.00287,0.0064,0.0056

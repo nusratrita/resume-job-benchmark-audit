@@ -1,0 +1,4 @@
+decision,pairs,raw agreement,kappa,kappa CI,weighted kappa,weighted kappa CI
+3 labels,150,0.413,0.12,"[0.015, 0.233]",0.174,"[0.057, 0.296]"
+fit vs no fit,150,0.667,0.324,"[0.177, 0.476]",,
+good vs potential (both say fit),64,0.406,-0.184,"[-0.415, 0.063]",,

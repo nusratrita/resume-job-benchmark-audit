@@ -1,0 +1,16 @@
+\begin{table}
+\caption{Paired differences, NDCG@5.}
+\label{tab:t4c_ndcg5_tests}
+\begin{tabular}{lrlr}
+\toprule
+comparison & mean diff & CI & p Holm (Wilcoxon) \\
+\midrule
+FT standard  minus  FT strict & 0.076 & [0.050, 0.103] & 0.000 \\
+FT size-matched  minus  FT strict & 0.065 & [0.040, 0.092] & 0.000 \\
+FT standard  minus  FT size-matched & 0.010 & [-0.006, 0.027] & 0.365 \\
+FT strict  minus  BGE-base (zero-shot) & 0.047 & [0.022, 0.072] & 0.006 \\
+FT strict  minus  E5-base (zero-shot) & 0.059 & [0.030, 0.089] & 0.001 \\
+FT strict  minus  TF-IDF & 0.045 & [0.014, 0.075] & 0.006 \\
+\bottomrule
+\end{tabular}
+\end{table}

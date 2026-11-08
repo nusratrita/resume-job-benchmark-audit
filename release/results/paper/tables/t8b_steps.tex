@@ -1,0 +1,29 @@
+\begin{table}
+\caption{Decomposing the polish effect: cleaning, markdown symbols and wording.}
+\label{tab:t8b_steps}
+\begin{tabular}{llrlrrr}
+\toprule
+step & method & change in SDs & CI (SDs) & share up & mean places up & p (Holm) \\
+\midrule
+cleaning & tfidf & 0.140 & [0.119, 0.161] & 0.882 & 2.350 & 0.000 \\
+cleaning & e5 & -0.049 & [-0.095, -0.002] & 0.447 & -0.670 & 0.000 \\
+cleaning & bge & -0.038 & [-0.072, -0.002] & 0.439 & -0.650 & 0.000 \\
+cleaning & mpnet & 0.048 & [0.016, 0.080] & 0.611 & 0.670 & 0.000 \\
+cleaning & qwen4b judge & -0.006 & [-0.036, 0.026] & 0.444 & NaN & 0.117 \\
+polish beyond cleaning & tfidf & -0.068 & [-0.099, -0.041] & 0.407 & -1.010 & 0.000 \\
+polish beyond cleaning & e5 & 0.792 & [0.740, 0.847] & 0.972 & 11.520 & 0.000 \\
+polish beyond cleaning & bge & 0.222 & [0.171, 0.270] & 0.792 & 3.500 & 0.000 \\
+polish beyond cleaning & mpnet & -0.127 & [-0.220, -0.047] & 0.392 & -2.160 & 0.000 \\
+polish beyond cleaning & qwen4b judge & 0.050 & [-0.008, 0.102] & 0.566 & NaN & 0.000 \\
+markdown symbols & tfidf & 0.000 & [0.000, 0.000] & 0.000 & 0.000 & 1.000 \\
+markdown symbols & e5 & 0.662 & [0.607, 0.721] & 0.977 & 9.150 & 0.000 \\
+markdown symbols & bge & 0.101 & [0.070, 0.132] & 0.680 & 1.470 & 0.000 \\
+markdown symbols & mpnet & -0.062 & [-0.114, -0.009] & 0.434 & -0.980 & 0.000 \\
+total & tfidf & 0.072 & [0.031, 0.108] & 0.646 & 1.340 & 0.000 \\
+total & e5 & 0.743 & [0.688, 0.801] & 0.948 & 10.860 & 0.000 \\
+total & bge & 0.184 & [0.119, 0.252] & 0.699 & 2.850 & 0.000 \\
+total & mpnet & -0.079 & [-0.165, -0.001] & 0.423 & -1.480 & 0.000 \\
+total & qwen4b judge & 0.044 & [-0.007, 0.092] & 0.522 & NaN & 0.004 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,13 @@
+subset,method,pairs,jobs,AUC fit-vs-no,AUC good-vs-potential,NDCG@5,NDCG@5 jobs
+all test pairs,FT standard,1630,306,0.795,0.54,0.857,170
+all test pairs,FT size-matched,1630,306,0.787,0.524,0.846,170
+all test pairs,FT strict,1630,306,0.758,0.514,0.781,170
+all test pairs,BGE-base (zero-shot),1630,306,0.659,0.486,0.734,170
+all test pairs,E5-base (zero-shot),1630,306,0.644,0.514,0.722,170
+all test pairs,TF-IDF,1630,306,0.628,0.529,0.736,170
+without affected pairs,FT standard,1246,267,0.797,0.562,0.865,140
+without affected pairs,FT size-matched,1246,267,0.789,0.527,0.85,140
+without affected pairs,FT strict,1246,267,0.763,0.533,0.793,140
+without affected pairs,BGE-base (zero-shot),1246,267,0.661,0.459,0.746,140
+without affected pairs,E5-base (zero-shot),1246,267,0.642,0.498,0.745,140
+without affected pairs,TF-IDF,1246,267,0.632,0.516,0.756,140

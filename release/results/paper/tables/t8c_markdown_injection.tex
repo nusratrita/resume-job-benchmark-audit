@@ -1,0 +1,30 @@
+\begin{table}
+\caption{Score change when markdown is added to the original resume text (no rewording).}
+\label{tab:t8c_markdown_injection}
+\begin{tabular}{llrlrrrr}
+\toprule
+step & method & change in SDs & CI (SDs) & share up & mean places up & share reaching top 5 & p (Holm) \\
+\midrule
+colons + line breaks & tfidf & 0.000 & [0.000, 0.000] & 0.000 & 0.000 & 0.000 & 1.000 \\
+colons + line breaks & e5 & 0.106 & [0.081, 0.133] & 0.778 & 1.790 & 0.050 & 0.000 \\
+colons + line breaks & bge & 0.106 & [0.079, 0.132] & 0.783 & 1.630 & 0.035 & 0.000 \\
+colons + line breaks & mpnet & 0.024 & [0.001, 0.043] & 0.618 & 0.370 & 0.026 & 0.000 \\
+bold headings & tfidf & 0.000 & [0.000, 0.000] & 0.000 & 0.000 & 0.000 & 1.000 \\
+bold headings & e5 & 0.718 & [0.672, 0.766] & 0.985 & 9.860 & 0.315 & 0.000 \\
+bold headings & bge & 0.091 & [0.065, 0.118] & 0.705 & 1.420 & 0.049 & 0.000 \\
+bold headings & mpnet & 0.005 & [-0.017, 0.025] & 0.500 & 0.130 & 0.014 & 0.975 \\
+bullets & tfidf & 0.000 & [0.000, 0.000] & 0.000 & 0.000 & 0.000 & 1.000 \\
+bullets & e5 & 0.708 & [0.658, 0.759] & 0.985 & 9.820 & 0.306 & 0.000 \\
+bullets & bge & 0.064 & [0.037, 0.090] & 0.614 & 1.090 & 0.040 & 0.000 \\
+bullets & mpnet & 0.019 & [-0.023, 0.061] & 0.542 & 0.340 & 0.030 & 0.000 \\
+bold + bullets & tfidf & 0.000 & [0.000, 0.000] & 0.000 & 0.000 & 0.000 & 1.000 \\
+bold + bullets & e5 & 0.806 & [0.748, 0.868] & 0.979 & 10.820 & 0.357 & 0.000 \\
+bold + bullets & bge & 0.078 & [0.048, 0.108] & 0.642 & 1.200 & 0.055 & 0.000 \\
+bold + bullets & mpnet & -0.012 & [-0.070, 0.040] & 0.491 & -0.170 & 0.032 & 0.082 \\
+all formatting & tfidf & 0.000 & [0.000, 0.000] & 0.000 & 0.000 & 0.000 & 1.000 \\
+all formatting & e5 & 0.912 & [0.861, 0.968] & 0.992 & 12.610 & 0.402 & 0.000 \\
+all formatting & bge & 0.184 & [0.153, 0.215] & 0.779 & 2.830 & 0.076 & 0.000 \\
+all formatting & mpnet & 0.012 & [-0.048, 0.061] & 0.536 & 0.200 & 0.042 & 0.038 \\
+\bottomrule
+\end{tabular}
+\end{table}

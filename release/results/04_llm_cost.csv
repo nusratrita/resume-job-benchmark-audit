@@ -1,0 +1,3 @@
+model,ms/pair (median),ms/job for top-10 re-rank
+Qwen3-4B,1368.6,13686.0
+Qwen3-1.7B,597.1,5971.0

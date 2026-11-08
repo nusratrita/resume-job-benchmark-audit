@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Fine-tuned BGE under the standard, size-matched and strict training sets (5x5 cross-validation).}
+\label{tab:t4_memorisation}
+\begin{tabular}{lrlrrr}
+\toprule
+method & AUC fit-vs-no & AUC fit-vs-no CI & AUC good-vs-potential & mean job AUC good-vs-potential & NDCG@5 \\
+\midrule
+FT standard & 0.795 & [0.763, 0.829] & 0.540 & 0.570 & 0.857 \\
+FT size-matched & 0.787 & [0.749, 0.824] & 0.524 & 0.552 & 0.846 \\
+FT strict & 0.758 & [0.727, 0.790] & 0.514 & 0.468 & 0.781 \\
+BGE-base (zero-shot) & 0.659 & [0.625, 0.699] & 0.486 & 0.447 & 0.734 \\
+E5-base (zero-shot) & 0.644 & [0.612, 0.681] & 0.514 & 0.492 & 0.722 \\
+TF-IDF & 0.628 & [0.596, 0.661] & 0.529 & 0.478 & 0.736 \\
+Resume-prior (standard train) & 0.661 & [0.620, 0.700] & 0.558 & 0.729 & 0.780 \\
+Resume-prior (strict train) & 0.454 & [0.423, 0.487] & 0.462 & 0.500 & 0.694 \\
+\bottomrule
+\end{tabular}
+\end{table}

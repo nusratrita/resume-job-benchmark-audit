@@ -1,0 +1,8 @@
+method,"AUC, dataset labels","AUC, human labels",pairs (dataset / human),shift (human - dataset),p
+Resume-prior,0.521,0.407,100 / 78,-0.114,0.211
+TF-IDF,0.368,0.74,100 / 78,0.372,0.0
+E5-base,0.434,0.655,100 / 78,0.221,0.011
+BGE-base,0.435,0.63,100 / 78,0.195,0.018
+MPNet-base,0.467,0.698,100 / 78,0.232,0.007
+Qwen3-4B judge,0.401,0.76,100 / 77,0.359,0.0
+Qwen3-1.7B judge,0.404,0.67,100 / 77,0.266,0.003

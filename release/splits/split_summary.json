@@ -1,0 +1,31 @@
+{
+  "dataset": "cnamuangtoun/resume-job-description-fit",
+  "seed": 42,
+  "pairs_after_cleaning": 7987,
+  "duplicate_pairs": 7,
+  "conflicting_pairs_dropped": 6,
+  "original_split_job_overlap": 0,
+  "splits": {
+    "train": {
+      "jobs": 245,
+      "usable_jobs": 208,
+      "candidates_per_job_median": 19.0,
+      "candidates_per_job_min": 1,
+      "candidates_per_job_max": 111
+    },
+    "val": {
+      "jobs": 53,
+      "usable_jobs": 41,
+      "candidates_per_job_median": 10.0,
+      "candidates_per_job_min": 1,
+      "candidates_per_job_max": 68
+    },
+    "test": {
+      "jobs": 53,
+      "usable_jobs": 45,
+      "candidates_per_job_median": 15.0,
+      "candidates_per_job_min": 2,
+      "candidates_per_job_max": 83
+    }
+  }
+}

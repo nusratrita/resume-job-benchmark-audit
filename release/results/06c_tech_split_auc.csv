@@ -1,0 +1,13 @@
+scorer,jobs,n jobs,per-job AUC,CI,p vs 0.5
+resume tech terms,all mixed jobs,91,0.594,"[0.548, 0.641]",0.0
+resume tech terms,tech mixed jobs,61,0.617,"[0.560, 0.677]",0.0
+resume tech terms,NON-tech mixed jobs,30,0.546,"[0.474, 0.619]",0.186
+resume text only,all mixed jobs,91,0.635,"[0.591, 0.681]",0.0
+resume text only,tech mixed jobs,61,0.666,"[0.611, 0.716]",0.0
+resume text only,NON-tech mixed jobs,30,0.573,"[0.496, 0.654]",0.069
+"resume text only, tech words removed",all mixed jobs,91,0.602,"[0.559, 0.645]",0.0
+"resume text only, tech words removed",tech mixed jobs,61,0.619,"[0.564, 0.667]",0.0
+"resume text only, tech words removed",NON-tech mixed jobs,30,0.566,"[0.485, 0.650]",0.103
+TF-IDF job-resume similarity,all mixed jobs,91,0.524,"[0.482, 0.571]",0.261
+TF-IDF job-resume similarity,tech mixed jobs,61,0.535,"[0.481, 0.591]",0.225
+TF-IDF job-resume similarity,NON-tech mixed jobs,30,0.504,"[0.437, 0.577]",0.91

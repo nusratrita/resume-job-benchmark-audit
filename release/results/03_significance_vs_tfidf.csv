@@ -1,0 +1,14 @@
+method,jobs,diff vs TF-IDF,p,p (Holm),significant
+BM25,45,-0.0848,0.0009,0.0117,True
+CrossEnc-MiniLM (zero-shot),45,-0.0892,0.0203,0.24359999999999998,False
+BGE-base (fine-tuned),45,0.0527,0.0709,0.7799,False
+MiniLM-L6 (zero-shot),45,-0.0498,0.0723,0.7799,False
+"MiniLM-L6 (zero-shot, chunked)",45,-0.0493,0.0911,0.8199,False
+"MPNet-base (zero-shot, chunked)",45,0.0254,0.2499,1.0,False
+MPNet-base (zero-shot),45,0.011,0.6081,1.0,False
+"Nomic-v1.5 (zero-shot, long)",45,-0.0127,0.6132,1.0,False
+"BGE-base (fine-tuned, strict)",45,0.0112,0.6342,1.0,False
+"BGE-base (zero-shot, chunked)",45,-0.0097,0.6693,1.0,False
+"E5-base (zero-shot, chunked)",45,0.009,0.6955,1.0,False
+E5-base (zero-shot),45,0.004,0.8766,1.0,False
+BGE-base (zero-shot),45,0.0014,0.9433,1.0,False

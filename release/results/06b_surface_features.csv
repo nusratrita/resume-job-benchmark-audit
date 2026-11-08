@@ -1,0 +1,7 @@
+feature,median,Spearman rho vs share Good,p,per-job AUC good-vs-potential
+word count,643.0,0.026,0.6,0.464
+max years of experience stated,0.0,-0.052,0.29,0.44
+degree level (0-3),1.0,0.038,0.44,0.455
+distinct words,371.0,0.015,0.76,0.507
+"digits (numbers, dates)",68.0,-0.014,0.78,0.493
+lines / bullets,0.0,0.073,0.14,0.518

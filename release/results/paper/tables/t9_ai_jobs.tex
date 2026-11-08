@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Zero-shot ranking on the 35 usable AI/ML jobs.}
+\label{tab:t9_ai_jobs}
+\begin{tabular}{lrrrr}
+\toprule
+method & jobs & NDCG@10 & diff vs TF-IDF & p \\
+\midrule
+E5-base (zero-shot) & 35 & 0.748 & 0.080 & 0.023 \\
+BGE-base (zero-shot) & 35 & 0.717 & 0.049 & 0.156 \\
+MPNet-base (zero-shot) & 35 & 0.718 & 0.051 & 0.098 \\
+Resume-prior (no job text) & 35 & 0.634 & -0.033 & 0.523 \\
+\bottomrule
+\end{tabular}
+\end{table}

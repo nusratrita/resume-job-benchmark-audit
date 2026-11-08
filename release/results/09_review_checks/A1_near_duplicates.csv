@@ -1,0 +1,7 @@
+texts,rule,near-duplicate pairs,texts with a near-duplicate,of
+resumes,cos>=0.8 or jac>=0.3,80,152,643
+resumes,cos>=0.9 or jac>=0.5  (MAIN),78,148,643
+resumes,cos>=0.95 or jac>=0.7,66,129,643
+jobs,cos>=0.8 or jac>=0.3,30,46,351
+jobs,cos>=0.9 or jac>=0.5  (MAIN),18,32,351
+jobs,cos>=0.95 or jac>=0.7,9,15,351

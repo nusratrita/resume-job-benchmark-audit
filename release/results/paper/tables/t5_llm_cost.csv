@@ -1,0 +1,13 @@
+method,NDCG@10 (test),ms per job (T4),macro-F1,seconds per job
+Random,0.6436,0.06,,0.0
+TF-IDF,0.7798,83.67,,0.084
+BM25,0.695,119.26,,0.119
+E5-base (zero-shot),0.7838,32.18,,0.032
+BGE-base (zero-shot),0.7812,31.79,,0.032
+MPNet-base (zero-shot),0.7909,28.42,,0.028
+BGE-base (fine-tuned),0.8325,15.58,,0.016
+"BGE-base (fine-tuned, strict)",0.791,16.24,,0.016
+Qwen3-4B judge (all pairs),0.8069,27372.0,0.3682,27.372
+Qwen3-1.7B judge (all pairs),0.759,11942.0,0.3161,11.942
+E5 -> Qwen3-4B re-rank top-10,0.7798,13686.0,,13.686
+E5 -> Qwen3-1.7B re-rank top-10,0.7633,5971.0,,5.971

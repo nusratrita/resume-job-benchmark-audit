@@ -1,0 +1,31 @@
+subset,comparison,metric,diff,CI,p
+all test pairs,FT standard - FT strict,AUC fit-vs-no,0.037,"[0.017, 0.057]",0.0
+all test pairs,FT standard - FT strict,AUC good-vs-potential,0.026,"[-0.024, 0.072]",0.325
+all test pairs,FT standard - FT strict,NDCG@5,0.076,"[0.048, 0.101]",0.0
+all test pairs,FT size-matched - FT strict,AUC fit-vs-no,0.029,"[0.007, 0.051]",0.009
+all test pairs,FT size-matched - FT strict,AUC good-vs-potential,0.01,"[-0.038, 0.056]",0.704
+all test pairs,FT size-matched - FT strict,NDCG@5,0.065,"[0.039, 0.091]",0.0
+all test pairs,FT standard - FT size-matched,AUC fit-vs-no,0.008,"[-0.006, 0.022]",0.276
+all test pairs,FT standard - FT size-matched,AUC good-vs-potential,0.016,"[-0.025, 0.055]",0.468
+all test pairs,FT standard - FT size-matched,NDCG@5,0.01,"[-0.005, 0.026]",0.2144
+all test pairs,FT strict - BGE-base (zero-shot),AUC fit-vs-no,0.098,"[0.067, 0.130]",0.0
+all test pairs,FT strict - BGE-base (zero-shot),AUC good-vs-potential,0.027,"[-0.041, 0.099]",0.424
+all test pairs,FT strict - BGE-base (zero-shot),NDCG@5,0.047,"[0.021, 0.072]",0.0008
+all test pairs,FT strict - TF-IDF,AUC fit-vs-no,0.129,"[0.098, 0.162]",0.0
+all test pairs,FT strict - TF-IDF,AUC good-vs-potential,-0.016,"[-0.081, 0.052]",0.661
+all test pairs,FT strict - TF-IDF,NDCG@5,0.045,"[0.013, 0.076]",0.0067
+without affected pairs,FT standard - FT strict,AUC fit-vs-no,0.034,"[0.009, 0.058]",0.006
+without affected pairs,FT standard - FT strict,AUC good-vs-potential,0.03,"[-0.030, 0.087]",0.329
+without affected pairs,FT standard - FT strict,NDCG@5,0.072,"[0.044, 0.099]",0.0
+without affected pairs,FT size-matched - FT strict,AUC fit-vs-no,0.026,"[0.002, 0.051]",0.032
+without affected pairs,FT size-matched - FT strict,AUC good-vs-potential,-0.005,"[-0.061, 0.051]",0.862
+without affected pairs,FT size-matched - FT strict,NDCG@5,0.057,"[0.031, 0.083]",0.0001
+without affected pairs,FT standard - FT size-matched,AUC fit-vs-no,0.008,"[-0.008, 0.023]",0.316
+without affected pairs,FT standard - FT size-matched,AUC good-vs-potential,0.035,"[-0.012, 0.083]",0.148
+without affected pairs,FT standard - FT size-matched,NDCG@5,0.015,"[-0.005, 0.035]",0.0975
+without affected pairs,FT strict - BGE-base (zero-shot),AUC fit-vs-no,0.102,"[0.066, 0.139]",0.0
+without affected pairs,FT strict - BGE-base (zero-shot),AUC good-vs-potential,0.073,"[-0.002, 0.148]",0.058
+without affected pairs,FT strict - BGE-base (zero-shot),NDCG@5,0.047,"[0.017, 0.080]",0.0056
+without affected pairs,FT strict - TF-IDF,AUC fit-vs-no,0.131,"[0.093, 0.171]",0.0
+without affected pairs,FT strict - TF-IDF,AUC good-vs-potential,0.017,"[-0.060, 0.093]",0.66
+without affected pairs,FT strict - TF-IDF,NDCG@5,0.036,"[0.002, 0.072]",0.0396

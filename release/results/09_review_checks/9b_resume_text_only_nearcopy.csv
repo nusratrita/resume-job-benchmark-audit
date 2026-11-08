@@ -1,0 +1,13 @@
+scorer,folds grouped by,jobs,n jobs,per-job AUC,CI,p vs 0.5
+resume text only,resume ID (6b/6c),all mixed jobs,91,0.635,"[0.591, 0.681]",0.0
+resume text only,resume ID (6b/6c),tech mixed jobs,61,0.666,"[0.611, 0.716]",0.0
+resume text only,resume ID (6b/6c),NON-tech mixed jobs,30,0.573,"[0.496, 0.654]",0.069
+resume text only,near-copy group,all mixed jobs,91,0.598,"[0.552, 0.645]",0.0
+resume text only,near-copy group,tech mixed jobs,61,0.623,"[0.570, 0.677]",0.0
+resume text only,near-copy group,NON-tech mixed jobs,30,0.546,"[0.464, 0.631]",0.285
+"resume text only, tech words removed",resume ID (6b/6c),all mixed jobs,91,0.602,"[0.559, 0.645]",0.0
+"resume text only, tech words removed",resume ID (6b/6c),tech mixed jobs,61,0.619,"[0.564, 0.667]",0.0
+"resume text only, tech words removed",resume ID (6b/6c),NON-tech mixed jobs,30,0.566,"[0.485, 0.650]",0.103
+"resume text only, tech words removed",near-copy group,all mixed jobs,91,0.603,"[0.558, 0.650]",0.0
+"resume text only, tech words removed",near-copy group,tech mixed jobs,61,0.628,"[0.574, 0.682]",0.0
+"resume text only, tech words removed",near-copy group,NON-tech mixed jobs,30,0.552,"[0.476, 0.631]",0.179

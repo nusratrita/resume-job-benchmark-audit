@@ -1,0 +1,4 @@
+check,count,of
+test resumes with a near-duplicate in STRICT training,25,434
+test jobs with a near-duplicate job in training,5,53
+test pairs affected (either),208,1105

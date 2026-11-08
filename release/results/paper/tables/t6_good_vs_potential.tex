@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Good-vs-Potential AUC on the 150 relabelled pairs: dataset labels vs human labels.}
+\label{tab:t6_good_vs_potential}
+\begin{tabular}{lrrlrr}
+\toprule
+method & AUC, dataset labels & AUC, human labels & pairs (dataset / human) & shift (human - dataset) & p \\
+\midrule
+Resume-prior & 0.521 & 0.407 & 100 / 78 & -0.114 & 0.211 \\
+TF-IDF & 0.368 & 0.740 & 100 / 78 & 0.372 & 0.000 \\
+E5-base & 0.434 & 0.655 & 100 / 78 & 0.221 & 0.011 \\
+BGE-base & 0.435 & 0.630 & 100 / 78 & 0.195 & 0.018 \\
+MPNet-base & 0.467 & 0.698 & 100 / 78 & 0.232 & 0.007 \\
+Qwen3-4B judge & 0.401 & 0.760 & 100 / 77 & 0.359 & 0.000 \\
+Qwen3-1.7B judge & 0.404 & 0.670 & 100 / 77 & 0.266 & 0.003 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,24 @@
+\begin{table}
+\caption{All zero-shot variants on all 294 usable jobs (appendix).}
+\label{tab:t3_zero_shot_full}
+\begin{tabular}{lrlrrrr}
+\toprule
+method & NDCG@10 & NDCG@10 CI & AUC fit-vs-no & AUC good-vs-potential & diff vs TF-IDF & p (Holm) \\
+\midrule
+E5-base (zero-shot) & 0.739 & [0.712, 0.765] & 0.741 & 0.474 & 0.033 & 0.014 \\
+E5-base (zero-shot, chunked) & 0.738 & [0.712, 0.763] & 0.736 & 0.495 & 0.031 & 0.014 \\
+MPNet-base (zero-shot) & 0.736 & [0.710, 0.763] & 0.732 & 0.511 & 0.030 & 0.019 \\
+BGE-base (zero-shot) & 0.735 & [0.708, 0.760] & 0.746 & 0.450 & 0.028 & 0.038 \\
+Nomic-v1.5 (zero-shot, long) & 0.733 & [0.707, 0.758] & 0.737 & 0.472 & 0.026 & 0.059 \\
+BGE-base (zero-shot, chunked) & 0.731 & [0.704, 0.758] & 0.750 & 0.498 & 0.025 & 0.040 \\
+MPNet-base (zero-shot, chunked) & 0.730 & [0.703, 0.756] & 0.733 & 0.511 & 0.023 & 0.069 \\
+MiniLM-L6 (zero-shot, chunked) & 0.708 & [0.680, 0.733] & 0.701 & 0.454 & 0.001 & 1.000 \\
+TF-IDF & 0.706 & [0.680, 0.732] & 0.689 & 0.524 & NaN & NaN \\
+MiniLM-L6 (zero-shot) & 0.703 & [0.677, 0.728] & 0.690 & 0.448 & -0.003 & 1.000 \\
+BM25 & 0.672 & [0.647, 0.698] & 0.640 & 0.505 & -0.034 & 0.000 \\
+Resume-prior (no job text) & 0.671 & [0.644, 0.699] & 0.665 & 0.727 & -0.035 & 0.134 \\
+CrossEnc-MiniLM (zero-shot) & 0.660 & [0.634, 0.687] & 0.641 & 0.510 & -0.046 & 0.007 \\
+Random & 0.582 & [0.556, 0.605] & 0.514 & 0.520 & -0.125 & 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

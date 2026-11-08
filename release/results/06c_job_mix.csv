@@ -1,0 +1,4 @@
+group,jobs,tech share (>= 2 terms),tech share (>= 3 terms),tech share (>= 5 terms),median tech terms
+all-Good,52,0.404,0.327,0.269,1.0
+all-Potential,162,0.488,0.414,0.278,1.0
+mixed,91,0.714,0.67,0.484,4.0

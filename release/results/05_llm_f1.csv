@@ -1,0 +1,5 @@
+model,labels,pairs,macro-F1,kappa
+Qwen3-4B judge,dataset,144,0.36,0.079
+Qwen3-4B judge,you,144,0.577,0.371
+Qwen3-1.7B judge,dataset,144,0.242,-0.024
+Qwen3-1.7B judge,you,144,0.44,0.321

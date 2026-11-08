@@ -1,0 +1,22 @@
+\begin{table}
+\caption{Test-split ranking quality and cost per job (median 20 candidates).}
+\label{tab:t5_llm_cost}
+\begin{tabular}{lrrrr}
+\toprule
+method & NDCG@10 (test) & ms per job (T4) & macro-F1 & seconds per job \\
+\midrule
+Random & 0.644 & 0.060 & NaN & 0.000 \\
+TF-IDF & 0.780 & 83.670 & NaN & 0.084 \\
+BM25 & 0.695 & 119.260 & NaN & 0.119 \\
+E5-base (zero-shot) & 0.784 & 32.180 & NaN & 0.032 \\
+BGE-base (zero-shot) & 0.781 & 31.790 & NaN & 0.032 \\
+MPNet-base (zero-shot) & 0.791 & 28.420 & NaN & 0.028 \\
+BGE-base (fine-tuned) & 0.833 & 15.580 & NaN & 0.016 \\
+BGE-base (fine-tuned, strict) & 0.791 & 16.240 & NaN & 0.016 \\
+Qwen3-4B judge (all pairs) & 0.807 & 27372.000 & 0.368 & 27.372 \\
+Qwen3-1.7B judge (all pairs) & 0.759 & 11942.000 & 0.316 & 11.942 \\
+E5 -> Qwen3-4B re-rank top-10 & 0.780 & 13686.000 & NaN & 13.686 \\
+E5 -> Qwen3-1.7B re-rank top-10 & 0.763 & 5971.000 & NaN & 5.971 \\
+\bottomrule
+\end{tabular}
+\end{table}

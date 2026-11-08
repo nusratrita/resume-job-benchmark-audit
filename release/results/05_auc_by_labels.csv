@@ -1,0 +1,29 @@
+method,task,labels,AUC,CI,pairs
+Resume-prior,fit vs no,dataset,0.641,"[0.535, 0.742]",150
+Resume-prior,good vs potential,dataset,0.521,"[0.404, 0.631]",100
+Resume-prior,fit vs no,you,0.566,"[0.473, 0.655]",150
+Resume-prior,good vs potential,you,0.407,"[0.275, 0.531]",78
+TF-IDF,fit vs no,dataset,0.6,"[0.498, 0.694]",150
+TF-IDF,good vs potential,dataset,0.368,"[0.259, 0.478]",100
+TF-IDF,fit vs no,you,0.662,"[0.572, 0.747]",150
+TF-IDF,good vs potential,you,0.74,"[0.622, 0.841]",78
+E5-base,fit vs no,dataset,0.57,"[0.466, 0.667]",150
+E5-base,good vs potential,dataset,0.434,"[0.324, 0.548]",100
+E5-base,fit vs no,you,0.737,"[0.654, 0.815]",150
+E5-base,good vs potential,you,0.655,"[0.529, 0.772]",78
+BGE-base,fit vs no,dataset,0.574,"[0.474, 0.670]",150
+BGE-base,good vs potential,dataset,0.435,"[0.323, 0.558]",100
+BGE-base,fit vs no,you,0.761,"[0.679, 0.835]",150
+BGE-base,good vs potential,you,0.63,"[0.503, 0.752]",78
+MPNet-base,fit vs no,dataset,0.602,"[0.501, 0.694]",150
+MPNet-base,good vs potential,dataset,0.467,"[0.352, 0.584]",100
+MPNet-base,fit vs no,you,0.772,"[0.693, 0.846]",150
+MPNet-base,good vs potential,you,0.698,"[0.577, 0.809]",78
+Qwen3-4B judge,fit vs no,dataset,0.713,"[0.614, 0.802]",144
+Qwen3-4B judge,good vs potential,dataset,0.401,"[0.291, 0.518]",100
+Qwen3-4B judge,fit vs no,you,0.843,"[0.771, 0.900]",144
+Qwen3-4B judge,good vs potential,you,0.76,"[0.644, 0.862]",77
+Qwen3-1.7B judge,fit vs no,dataset,0.557,"[0.450, 0.655]",144
+Qwen3-1.7B judge,good vs potential,dataset,0.404,"[0.298, 0.514]",100
+Qwen3-1.7B judge,fit vs no,you,0.749,"[0.663, 0.824]",144
+Qwen3-1.7B judge,good vs potential,you,0.67,"[0.550, 0.786]",77

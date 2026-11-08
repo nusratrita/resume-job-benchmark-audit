@@ -1,0 +1,6 @@
+fold,test pairs,test jobs,jobs with 2+ labels,test labels,train standard,train strict,train size-matched,size-matched pairs with a test resume
+0,315,61,33,"{'No Fit': 139, 'Good Fit': 97, 'Potential Fit': 79}",6382,5163,5163,903
+1,382,67,47,"{'No Fit': 180, 'Potential Fit': 103, 'Good Fit': 99}",6350,4956,4956,1028
+2,289,57,30,"{'No Fit': 165, 'Potential Fit': 72, 'Good Fit': 52}",6519,5346,5346,863
+3,331,64,41,"{'No Fit': 178, 'Potential Fit': 79, 'Good Fit': 74}",6394,5025,5025,937
+4,313,57,30,"{'No Fit': 158, 'Potential Fit': 78, 'Good Fit': 77}",6303,5101,5101,875

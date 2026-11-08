@@ -1,0 +1,8 @@
+Jobs,Definition,Used in
+351,all jobs,Table 1
+305,at least one fit candidate,label structure (6.3)
+294,"usable: 5+ candidates, 1+ fit, 2+ labels","zero-shot comparison (6.1), AI polish (6.4)"
+91,both Good and Potential among fit candidates,per-job Good-vs-Potential AUC (6.3)
+53 / 45,test split: all / usable,"fine-tuned models, LLM judge (6.1-6.2)"
+42,jobs in the 150-pair human sample,human relabelling (6.3)
+306,test cells of the 5x5 cross-validation grid,memorisation (6.1)

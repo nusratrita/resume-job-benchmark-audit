@@ -1,0 +1,8 @@
+target,factors,levels,in-sample R2,CV R2 (new pairs)
+relevance,resume only,643,0.178,0.047
+relevance,job only,351,0.269,0.21
+relevance,resume + job,994,0.428,0.245
+good,resume only,511,0.165,-0.061
+good,job only,305,0.698,0.636
+good,resume + job,816,0.78,0.657
+good (within job),resume only,467,0.427,0.145

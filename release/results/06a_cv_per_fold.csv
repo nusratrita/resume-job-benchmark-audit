@@ -1,0 +1,26 @@
+fold,method,AUC fit-vs-no,AUC good-vs-potential
+0,FT standard,0.842,0.497
+0,FT size-matched,0.841,0.485
+0,FT strict,0.803,0.441
+0,BGE-base (zero-shot),0.709,0.452
+0,Resume-prior (standard train),0.715,0.537
+1,FT standard,0.799,0.617
+1,FT size-matched,0.782,0.606
+1,FT strict,0.762,0.596
+1,BGE-base (zero-shot),0.622,0.491
+1,Resume-prior (standard train),0.658,0.553
+2,FT standard,0.846,0.467
+2,FT size-matched,0.838,0.449
+2,FT strict,0.823,0.477
+2,BGE-base (zero-shot),0.695,0.531
+2,Resume-prior (standard train),0.643,0.552
+3,FT standard,0.724,0.508
+3,FT size-matched,0.722,0.542
+3,FT strict,0.667,0.524
+3,BGE-base (zero-shot),0.666,0.503
+3,Resume-prior (standard train),0.618,0.491
+4,FT standard,0.777,0.543
+4,FT size-matched,0.779,0.501
+4,FT strict,0.726,0.45
+4,BGE-base (zero-shot),0.625,0.471
+4,Resume-prior (standard train),0.663,0.629

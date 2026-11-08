@@ -1,0 +1,27 @@
+metric,method,jobs,diff vs TF-IDF,p,p (Holm),significant
+NDCG@10,BGE-base (zero-shot),294,0.0283,0.0054,0.0378,True
+NDCG@10,"BGE-base (zero-shot, chunked)",294,0.025,0.0067,0.0402,True
+NDCG@10,BM25,294,-0.0344,0.0,0.0,True
+NDCG@10,CrossEnc-MiniLM (zero-shot),294,-0.0462,0.0006,0.006599999999999999,True
+NDCG@10,E5-base (zero-shot),294,0.0326,0.0016,0.014400000000000001,True
+NDCG@10,"E5-base (zero-shot, chunked)",294,0.0313,0.0014,0.014,True
+NDCG@10,MPNet-base (zero-shot),294,0.0299,0.0024,0.0192,True
+NDCG@10,"MPNet-base (zero-shot, chunked)",294,0.0232,0.0172,0.0688,False
+NDCG@10,MiniLM-L6 (zero-shot),294,-0.0034,0.753,1.0,False
+NDCG@10,"MiniLM-L6 (zero-shot, chunked)",294,0.0013,0.9078,1.0,False
+NDCG@10,"Nomic-v1.5 (zero-shot, long)",294,0.0262,0.0118,0.059,False
+NDCG@10,Random,294,-0.1247,0.0,0.0,True
+NDCG@10,Resume-prior (no job text),294,-0.0351,0.0445,0.1335,False
+AUC good-vs-potential,BGE-base (zero-shot),91,-0.0741,0.0272,0.27199999999999996,False
+AUC good-vs-potential,"BGE-base (zero-shot, chunked)",91,-0.0259,0.3363,1.0,False
+AUC good-vs-potential,BM25,91,-0.0193,0.1906,1.0,False
+AUC good-vs-potential,CrossEnc-MiniLM (zero-shot),91,-0.0145,0.62,1.0,False
+AUC good-vs-potential,E5-base (zero-shot),91,-0.0507,0.0394,0.35459999999999997,False
+AUC good-vs-potential,"E5-base (zero-shot, chunked)",91,-0.0293,0.161,1.0,False
+AUC good-vs-potential,MPNet-base (zero-shot),91,-0.0132,0.6409,1.0,False
+AUC good-vs-potential,"MPNet-base (zero-shot, chunked)",91,-0.0129,0.6004,1.0,False
+AUC good-vs-potential,MiniLM-L6 (zero-shot),91,-0.0763,0.0161,0.1771,False
+AUC good-vs-potential,"MiniLM-L6 (zero-shot, chunked)",91,-0.0702,0.0117,0.1404,False
+AUC good-vs-potential,"Nomic-v1.5 (zero-shot, long)",91,-0.0521,0.073,0.584,False
+AUC good-vs-potential,Random,91,-0.0042,0.8947,1.0,False
+AUC good-vs-potential,Resume-prior (no job text),91,0.2023,0.0,0.0,True

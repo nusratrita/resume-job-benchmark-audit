@@ -1,0 +1,4 @@
+decision,pairs,kappa,CI pairs (NB5),CI jobs (clustered),excludes 0: pairs,excludes 0: jobs
+3 labels,150,0.12,"[0.015, 0.233]","[0.020, 0.227]",yes,yes
+fit vs no fit,150,0.324,"[0.177, 0.476]","[0.185, 0.469]",yes,yes
+good vs potential,64,-0.184,"[-0.415, 0.063]","[-0.375, 0.039]",no,no

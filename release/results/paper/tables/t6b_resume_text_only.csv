@@ -1,0 +1,4 @@
+scorer,jobs,per-job AUC good-vs-potential,CI,pooled AUC
+"Resume-prior (identity, leave-one-job-out)",91,0.727,"[0.685, 0.769]",0.538
+"Resume TEXT only, unseen resumes",91,0.635,"[0.591, 0.681]",0.566
+"Job TEXT only, unseen jobs",91,0.5,"[0.500, 0.500]",0.589

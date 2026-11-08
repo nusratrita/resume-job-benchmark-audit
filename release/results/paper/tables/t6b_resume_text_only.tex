@@ -1,0 +1,13 @@
+\begin{table}
+\caption{Per-job Good-vs-Potential AUC of scorers that never read the job (91 mixed jobs).}
+\label{tab:t6b_resume_text_only}
+\begin{tabular}{lrrlr}
+\toprule
+scorer & jobs & per-job AUC good-vs-potential & CI & pooled AUC \\
+\midrule
+Resume-prior (identity, leave-one-job-out) & 91 & 0.727 & [0.685, 0.769] & 0.538 \\
+Resume TEXT only, unseen resumes & 91 & 0.635 & [0.591, 0.681] & 0.566 \\
+Job TEXT only, unseen jobs & 91 & 0.500 & [0.500, 0.500] & 0.589 \\
+\bottomrule
+\end{tabular}
+\end{table}
