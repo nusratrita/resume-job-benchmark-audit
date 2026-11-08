@@ -20,6 +20,7 @@ Notebook 1 downloads it from Hugging Face, and every file here refers to jobs an
 |---|---|
 | `notebooks/` | Every experiment, numbered in run order (Google Colab). Saved outputs were removed because they printed parts of resumes. |
 | `src/metrics.py` | Reference NDCG@k, P@k and MRR functions (each notebook carries its own copy, so it runs on its own) |
+| `src/grid_perjob.mjs` | Per-job fit-vs-no AUC and test-list lengths for the 5 × 5 grid, from the released 6a scores (Node.js; `npm install hyparquet@1.13.6 hyparquet-compressors@1.1.1`, then `node src/grid_perjob.mjs`) |
 | `release/splits/` | Pair-level split file and split summary |
 | `release/labels/` | Human labels (author, second annotator, author self-check), IDs only |
 | `release/results/` | Every result file behind the paper's tables and figures |
@@ -91,6 +92,7 @@ All notebooks run on Google Colab and save their outputs to Google Drive under
 | `07b_figures_print_size` | Redraws the figures at print size (8 pt) | CPU |
 | `09_review_checks` | Near-duplicate resumes and jobs, clean-subset re-test of 6a, job-clustered intervals | CPU, ~10 min |
 | `09b_nearcopy_text_only` | Resume-text-only test with folds grouped by near-copy group | CPU |
+| `10_prior_dissimilar_jobs` | Resume-prior computed only from jobs dissimilar to the target job (E5 / TF-IDF job similarity) | CPU, 5–10 min |
 
 Random seeds are fixed (42 unless a notebook says otherwise). All GPU timings in the paper come from a
 single NVIDIA T4 (16 GB); CPU timings from one thread on Colab.
@@ -185,6 +187,7 @@ were seen:
 | Second annotator: sample and analysis | 4 Oct 2026, before any second labels |
 | Second annotator round 2 | 6 Oct 2026, before round-2 labelling |
 | Review checks (Notebook 9), self-check | 19 Oct 2026, before running / before the self-check sheet existed |
+| Resume-prior over dissimilar jobs (Notebook 10) | 8 Nov 2026, before running |
 
 Results added to the file after each analysis are marked as such in the file.
 
