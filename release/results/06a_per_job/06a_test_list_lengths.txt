@@ -1,0 +1,2 @@
+test lists: 306 (fold,job) lists, 306 jobs; candidates per list: min 1, q25 2, median 4, q75 7, max 26; share with <=3: 0.49, <=5: 0.64
+jobs with both fit and no-fit in the test list: 179

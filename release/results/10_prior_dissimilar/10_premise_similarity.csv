@@ -1,0 +1,3 @@
+similarity,pairs,mean sim. to the resume's other jobs,mean sim. to all other jobs
+E5,7670,0.845,0.833
+TF-IDF,7670,0.060,0.047

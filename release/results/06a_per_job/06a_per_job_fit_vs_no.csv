@@ -1,0 +1,16 @@
+section,name,value,ci_low,ci_high,p_signflip,p_holm,jobs_better,jobs_worse
+per_job_auc_fit_vs_no,"TF-IDF",0.649,0.606,0.690,,,,
+per_job_auc_fit_vs_no,"BGE-base (zero-shot)",0.665,0.618,0.710,,,,
+per_job_auc_fit_vs_no,"E5-base (zero-shot)",0.648,0.603,0.695,,,,
+per_job_auc_fit_vs_no,"FT standard",0.840,0.800,0.877,,,,
+per_job_auc_fit_vs_no,"Resume-prior (standard train)",0.669,0.619,0.716,,,,
+per_job_auc_fit_vs_no,"FT strict",0.736,0.694,0.777,,,,
+per_job_auc_fit_vs_no,"Resume-prior (strict train)",0.500,0.500,0.500,,,,
+per_job_auc_fit_vs_no,"FT size-matched",0.823,0.785,0.858,,,,
+per_job_auc_fit_vs_no,"Resume-prior (size-matched train)",0.667,0.616,0.714,,,,
+paired_difference,"FT standard - FT strict",+0.104,0.066,0.141,0.0000,0.0003,88,20
+paired_difference,"FT size-matched - FT strict",+0.087,0.052,0.122,0.0000,0.0003,81,28
+paired_difference,"FT standard - FT size-matched",+0.017,-0.001,0.035,0.0646,0.0646,40,32
+paired_difference,"FT strict - BGE-base (zero-shot)",+0.071,0.034,0.110,0.0001,0.0003,74,34
+paired_difference,"FT strict - E5-base (zero-shot)",+0.088,0.046,0.131,0.0000,0.0003,83,34
+paired_difference,"FT strict - TF-IDF",+0.088,0.045,0.130,0.0001,0.0003,83,43
