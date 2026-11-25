@@ -93,6 +93,7 @@ All notebooks run on Google Colab and save their outputs to Google Drive under
 | `09_review_checks` | Near-duplicate resumes and jobs, clean-subset re-test of 6a, job-clustered intervals | CPU, ~10 min |
 | `09b_nearcopy_text_only` | Resume-text-only test with folds grouped by near-copy group | CPU |
 | `10_prior_dissimilar_jobs` | Resume-prior computed only from jobs dissimilar to the target job (E5 / TF-IDF job similarity) | CPU, 5–10 min |
+| `11_trained_baselines` | Two more trained models, BPJFNN (our re-implementation) and a fine-tuned cross-encoder, on the standard/strict split and the 5×5 grid (resumable) | T4 GPU, 2–3 h |
 
 Random seeds are fixed (42 unless a notebook says otherwise). All GPU timings in the paper come from a
 single NVIDIA T4 (16 GB); CPU timings from one thread on Colab.
@@ -188,6 +189,7 @@ were seen:
 | Second annotator round 2 | 6 Oct 2026, before round-2 labelling |
 | Review checks (Notebook 9), self-check | 19 Oct 2026, before running / before the self-check sheet existed |
 | Resume-prior over dissimilar jobs (Notebook 10) | 8 Nov 2026, before running |
+| Trained baselines (Notebook 11) | 24 Nov 2026, before running |
 
 Results added to the file after each analysis are marked as such in the file.
 
